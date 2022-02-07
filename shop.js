@@ -152,7 +152,6 @@ var cardTemplate = `<div class="shop-product card" data-num="[EVEGPRODUCT#]">
     if(basket[thisID] === undefined){
       basket[thisID] = 0;
       changeQuantity(thisID,0);
-      //alert("Items were removed to the basket");
     }
     else{
       if(basket[thisID] >= 0){
